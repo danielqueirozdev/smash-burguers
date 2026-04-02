@@ -111,7 +111,7 @@ export default function Home() {
             <div className="hero-label reveal">Aberto hoje até meia-noite</div>
             <h1 className="hero-title reveal" style={{ transitionDelay: '.1s' }}>
               O Smash Burger<br />
-              <span>Mais Insano</span><br />
+              <span>Mais Insano</span>
               Da Sua Cidade
             </h1>
             <p className="hero-sub reveal" style={{ transitionDelay: '.2s' }}>
