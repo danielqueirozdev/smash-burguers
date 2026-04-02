@@ -135,6 +135,14 @@ export default function Home() {
           {/* RIGHT */}
           <div className="hero-visual reveal" style={{ transitionDelay: '.22s' }}>
             <div className="burger-wrap">
+              <div className="burger-glow-outer" />
+              <div className="burger-glow-inner" />
+              <div className="burger-ring-1" />
+              <div className="burger-ring-2" />
+              <span className="burger-spark" />
+              <span className="burger-spark" />
+              <span className="burger-spark" />
+              <span className="burger-spark" />
               <img src="/hero-burger.png" alt="Smash Burger Premium" className="burger-img" />
               <div className="badge-off">
                 <span className="badge-off-label">Hoje</span>
