@@ -27,9 +27,9 @@ export default function Home() {
   }, [])
 
   const maisVendidos = [
-    { name: 'Classic Smash', desc: 'Pão brioche tostado, carne smash 100g, cheddar americano e molho especial da casa.', price: 'R$18', img: '/classic.png' },
-    { name: 'Double Smash', desc: 'Duas carnes smash, cheddar duplo derretido e cebola caramelizada no ponto.', price: 'R$25', img: '/double.png', featured: true },
-    { name: 'Bacon Supreme', desc: 'Smash duplo, bacon crocante, cheddar e molho barbecue defumado.', price: 'R$30', img: '/bacon.png' },
+    { name: 'Classic Smash', desc: 'Pão brioche tostado, carne smash 100g, cheddar americano e molho especial da casa.', price: 'R$18', img: '/classic.jpg' },
+    { name: 'Double Smash', desc: 'Duas carnes smash, cheddar duplo derretido e cebola caramelizada no ponto.', price: 'R$25', img: '/double.jpg', featured: true },
+    { name: 'Bacon Supreme', desc: 'Smash duplo, bacon crocante, cheddar e molho barbecue defumado.', price: 'R$30', img: '/bacon.jpg' },
   ]
 
   const cardapio = [
@@ -143,7 +143,7 @@ export default function Home() {
               <span className="burger-spark" />
               <span className="burger-spark" />
               <span className="burger-spark" />
-              <img src="/hero-burger.png" alt="Smash Burger Premium" className="burger-img" />
+              <img src="/hero-burger.jpg" alt="Smash Burger Premium" className="burger-img" />
               <div className="badge-off">
                 <span className="badge-off-label">Hoje</span>
                 <span className="badge-off-value">30%</span>
@@ -246,7 +246,7 @@ export default function Home() {
       <section id="visual">
         <div className="visual-grid">
           <div className="visual-item">
-            <img src="/batatas.png" alt="Batata frita crocante" />
+            <img src="/batatas.jpg" alt="Batata frita crocante" />
             <div className="visual-item-overlay">
               <div className="visual-item-name">Batata Frita</div>
               <div className="visual-item-desc">Crocante por fora, macia por dentro</div>
@@ -254,7 +254,7 @@ export default function Home() {
             </div>
           </div>
           <div className="visual-item">
-            <img src="/milkshake.png" alt="Milkshake premium" />
+            <img src="/milkshake.jpg" alt="Milkshake premium" />
             <div className="visual-item-overlay">
               <div className="visual-item-name">Milkshake</div>
               <div className="visual-item-desc">Cremoso e irresistível em 4 sabores</div>
@@ -268,7 +268,7 @@ export default function Home() {
       <section id="ingredientes">
         <div className="ingr-inner">
           <div className="ingr-img">
-            <img src="/ingredients.png" alt="Ingredientes premium" />
+            <img src="/ingredients.jpg" alt="Ingredientes premium" />
           </div>
           <div className="ingr-content">
             <div className="sec-tag reveal">🥬 Qualidade</div>
